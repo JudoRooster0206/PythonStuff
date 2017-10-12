@@ -1,0 +1,31 @@
+print("Challenge 1")
+
+Favorite_Musicians=["Adrian Von Ziegler", "Nobuo Uematsu", "Michiru Yamane"]
+print(Favorite_Musicians)
+
+print("\nChallenge 2")
+Rancho=[65.12, 50.23]
+Planet_Vegeta=(9000.00, 9000.00)
+
+Tups=(Rancho, Planet_Vegeta,)
+print(Tups)
+
+print("\nChallenge 3")
+NKB= {"Height": "5\'11", "Favorite_Color": "Black", "Favorite_Show": "Death_Note", "Hobby": "Reading",}
+print(NKB)
+
+print("\nChallenge 4")
+
+ans=input("Type Height, Favorite_Color, Favorite_Show, Death_Note, or Hobby ")
+if ans in NKB:
+    key = NKB[ans]
+    print(key)
+else:
+    print("Guess again")
+
+print("\nChallenge 5")
+Favorite_Songs = {"Adrian": "Wild Flower", "Nobuo": "Shadow\'s Theme", "Michiru": "Lost Painting"}  
+print(Favorite_Songs)
+
+print("\nChallenge 6")
+print("You would use a set when you want to make a chess board or a list of states")
